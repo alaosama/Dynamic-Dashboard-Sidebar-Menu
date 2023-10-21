@@ -185,3 +185,18 @@
     font-size: 18px;
     border-radius: 12px;
 }
+
+.sidebar li.profile {
+    position: fixed;
+    height: 60px;
+    width: 78px;
+    left: 0;
+    bottom: -8px;
+    padding: 10px 14pc;
+    background: #1d1b31;
+    transition: all 0.5s ease;
+}
+
+.sidebar.sidebar.open li.profile {
+    width: 250px;
+}
